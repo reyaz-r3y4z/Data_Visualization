@@ -1,0 +1,7 @@
+S.No,Range of Rainfall,Actual Rainfall Occurred,Normal Rainfall Expected
+1,Below 800 mm,"Chennai, Tiruvannamalai, Villupuram, Vellore, Tiruvallur, Salem, Namakkal, Dharmapuri, krishnagiri, Tiruppur, Erode, Tiruchirappalli, Karur, Perambalur, Pudukkottai, Thanjavur, Madurai, Dindigul, Ramanathapuram, Virudhunagar, Sivaganga, Thoothukudi, Ariyalur","Namakkal, Tiruppur, Coimbatore, Erode, Karur, Theni, Thoothukudi"
+2,801 mm to 1000 mm,"Kancheepuram, Cuddalore, Tiruvarur, Nagapattinam, Theni, Tirunelveli","Tiruchirappalli, Pudukkottai, Ramanathapuram, Virudhunagar, Sivaganga, Tirunelveli, Vellore, Salem, Dharmapuri, Krishnagiri, Perambalur, Madurai, Dindigul"
+3,1001 mm to 1200 mm,"Coimbatore, Kanniyakumari","Tiruvallur, Villupuram, Tiruvannamalai, Tiruvarur, Ariyalur, Thanjavur"
+4,1201 mm to 1400 mm,NA,"Chennai, Kancheepuram, Kanniyakumari, Nagapattinam, Cuddalore"
+5,1401 mm to 1800 mm,The Nilgiris,The Nilgiris
+6,1801 mm and above,NA,NA

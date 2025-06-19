@@ -1,0 +1,193 @@
+S.No,Name of the Station,Month,Highest Maximum Temperature (in Celsius),Mean Maximum Temperature (in Celsius),Lowest Minimum Temperature (in Celsius),Mean Minimum Temperature (in Celsius),Percentage of Humidity at 08.30 Hours,Percentage of Humidity at 17.30 Hours
+1,Nungambakkam (Chennai North),June'2018,39.8,37.4,25.2,28.1,62,60
+2,Nungambakkam (Chennai North),July'2018,38.1,35.7,22.4,27.3,64,56
+3,Nungambakkam (Chennai North),August'2018,37.8,35,23.2,25.7,71,67
+4,Nungambakkam (Chennai North),September'2018,37.3,34.2,22.4,26.3,78,73
+5,Nungambakkam (Chennai North),October'2018,36.4,32.8,23.8,26.3,81,76
+6,Nungambakkam (Chennai North),November'2018,32.7,30.7,22.6,24.5,82,74
+7,Nungambakkam (Chennai North),December'2018,31.3,30,20,23,83,73
+8,Nungambakkam (Chennai North),January'2019,30.8,29.4,19.7,21.2,82,66
+9,Nungambakkam (Chennai North),February'2019,34,31.6,21,23.9,79,68
+10,Nungambakkam (Chennai North),March'2019,35.6,33.6,23.6,25.8,77,67
+11,Nungambakkam (Chennai North),April'2019,36.8,35.2,26.4,27.9,78,74
+12,Nungambakkam (Chennai North),May'2019,41.5,37.4,28.4,29.4,75,80
+13,Meenambakkam (PBO Chennai),June'2018,40.1,38,25.3,27.9,62,59
+14,Meenambakkam (PBO Chennai),July'2018,38.7,36.3,23,27.2,64,54
+15,Meenambakkam (PBO Chennai),August'2018,39.5,35.5,23.3,25.5,71,65
+16,Meenambakkam (PBO Chennai),September'2018,37.9,34.6,21,25.4,75,68
+17,Meenambakkam (PBO Chennai),October'2018,36.5,32.6,22.1,26.4,80,71
+18,Meenambakkam (PBO Chennai),November'2018,33,30.7,21.4,23.5,81,71
+19,Meenambakkam (PBO Chennai),December'2018,31,30,20.7,22.6,83,70
+20,Meenambakkam (PBO Chennai),January'2019,30.9,29.6,17.8,20.3,82,63
+21,Meenambakkam (PBO Chennai),February'2019,35,32,20,23,82,67
+22,Meenambakkam (PBO Chennai),March'2019,38.5,34.9,22.9,24.6,79,63
+23,Meenambakkam (PBO Chennai),April'2019,39.2,36.7,25.2,26.6,73,61
+24,Meenambakkam (PBO Chennai),May'2019,42.2,39.2,26.9,28.2,64,61
+25,Salem,June'2018,36.8,34.3,22.5,24.7,78,59
+26,Salem,July'2018,35.5,33.6,21.8,24.2,79,55
+27,Salem,August'2018,36.3,34.3,22.5,24.1,76,54
+28,Salem,September'2018,37.6,34.6,22.8,24.1,76,50
+29,Salem,October'2018,35,32.8,20.2,22.8,78,58
+30,Salem,November'2018,34.8,31.6,19,22.1,78,58
+31,Salem,December'2018,33.7,31.9,18.8,21,75,49
+32,Salem,January'2019,34,32.6,16.1,18.8,73,36
+33,Salem,February'2019,39,35.7,18.6,21.7,73,32
+34,Salem,March'2019,40.8,38.6,21,23.9,69,27
+35,Salem,April'2019,41.1,39.3,22.8,26.4,71,38
+36,Salem,May'2019,40.8,39.2,23.5,27,70,46
+37,Kovilankulam (Aruppukottai),June'2018,NA,NA,NA,NA,NA,NA
+38,Kovilankulam (Aruppukottai),July'2018,40,36.9,23,25.4,74,61
+39,Kovilankulam (Aruppukottai),August'2018,39,36.6,24,25.2,71,59
+40,Kovilankulam (Aruppukottai),September'2018,38,36.6,21.5,24.2,76,55
+41,Kovilankulam (Aruppukottai),October'2018,39.5,35.7,22.5,24.1,82,62
+42,Kovilankulam (Aruppukottai),November'2018,35.5,33.1,19,22.8,81,68
+43,Kovilankulam (Aruppukottai),December'2018,35,31.8,19,21.5,82,70
+44,Kovilankulam (Aruppukottai),January'2019,NA,NA,NA,NA,NA,NA
+45,Kovilankulam (Aruppukottai),February'2019,NA,NA,NA,NA,NA,NA
+46,Kovilankulam (Aruppukottai),March'2019,NA,NA,NA,NA,NA,NA
+47,Kovilankulam (Aruppukottai),April'2019,NA,NA,NA,NA,NA,NA
+48,Kovilankulam (Aruppukottai),May'2019,NA,NA,NA,NA,NA,NA
+49,AMS Tiruchirappalli,June'2018,39.4,37.7,24.4,27.3,60,44
+50,AMS Tiruchirappalli,July'2018,39.4,35.9,23.4,26.7,62,46
+51,AMS Tiruchirappalli,August'2018,39.1,36.7,24.4,26.5,60,44
+52,AMS Tiruchirappalli,September'2018,39.3,36.8,23,25.6,66,43
+53,AMS Tiruchirappalli,October'2018,35.9,33,22.6,24.6,77,65
+54,AMS Tiruchirappalli,November'2018,35.1,30.8,20.4,23.5,82,69
+55,AMS Tiruchirappalli,December'2018,32.3,30.8,20,22.4,82,63
+56,AMS Tiruchirappalli,January'2019,33.8,31.3,17.6,20.3,76,49
+57,AMS Tiruchirappalli,February'2019,37.9,34.6,20.4,23.3,76,43
+58,AMS Tiruchirappalli,March'2019,40,37.6,21.4,24.5,70,31
+59,AMS Tiruchirappalli,April'2019,40.8,39.6,24.6,27.1,69,42
+60,AMS Tiruchirappalli,May'2019,42.6,41,23.6,28.1,64,37
+61,Kodaikanal,June'2018,21.6,18.9,11.3,12.5,80,90
+62,Kodaikanal,July'2018,19.8,17.5,9.7,11.6,84,92
+63,Kodaikanal,August'2018,19,17.1,10.1,11.8,86,92
+64,Kodaikanal,September'2018,20.9,18.6,10.3,11.9,80,90
+65,Kodaikanal,October'2018,19.8,17.2,8.7,10.9,83,90
+66,Kodaikanal,November'2018,20.1,16.5,8.3,10.3,81,87
+67,Kodaikanal,December'2018,20.2,16.6,5.9,9.5,79,84
+68,Kodaikanal,January'2019,21.5,18.8,6.8,9.1,38,64
+69,Kodaikanal,February'2019,22.1,18.7,6,10.1,62,80
+70,Kodaikanal,March'2019,22.5,20.6,9.3,11.4,51,74
+71,Kodaikanal,April'2019,22.2,21.2,10.7,12.5,52,80
+72,Kodaikanal,May'2019,24.1,22,10.4,13.9,62,85
+73,AMS-Madurai,June'2018,39.5,37.3,24.9,26.4,62 62,47
+74,AMS-Madurai,July'2018,39.2,36.6,23.6,26.2,60,49
+75,AMS-Madurai,August'2018,38.8,36.6,23,25.7,62,52
+76,AMS-Madurai,September'2018,37.9,35.3,22.6,24.2,69,54
+77,AMS-Madurai,October'2018,36.6,33,22.6,24.1,78,66
+78,AMS-Madurai,November'2018,35.1,31.7,21.2,23.4,80,68
+79,AMS-Madurai,December'2018,34.4,31.9,21.5,22.6,77,57
+80,AMS-Madurai,January'2019,35,32.5,17.2,20.2,71,41
+81,AMS-Madurai,February'2019,38.7,35.2,20.2,23,68,39
+82,AMS-Madurai,March'2019,41,38.1,22.3,24.4,67,31
+83,AMS-Madurai,April'2019,40.6,39.4,23.2,26.5,63,37
+84,AMS-Madurai,May'2019,42,40.7,24.8,27.6,61,42
+85,Kanniyakumari,June'2018,30.3,30.6,24.1,24.7,87,86
+86,Kanniyakumari,July'2018,31.1,30.4,23.5,24.3,86,87
+87,Kanniyakumari,August'2018,30.1,30.5,22.6,24.2,84,84
+88,Kanniyakumari,September'2018,30.8,30.6,23.5,24.4,76,83
+89,Kanniyakumari,October'2018,31.4,30.5,24.1,24.4,81,83
+90,Kanniyakumari,November'2018,31.5,30.3,23.6,24.2,81,77
+91,Kanniyakumari,December'2018,31.9,30.5,23.8,23.9,77,74
+92,Kanniyakumari,January'2019,32.2,31.1,22.4,23.6,70,70
+93,Kanniyakumari,February'2019,33.5,31.8,24.2,24,75,75
+94,Kanniyakumari,March'2019,34.1,32.4,25.1,25.3,70,70
+95,Kanniyakumari,April'2019,34.6,32.8,26.8,26.3,73,74
+96,Kanniyakumari,May'2019,33.6,32.4,27.1,26.3,79,84
+97,Nungambakkam (Chennai North),June'2017,41.1,37.6,24.3,28.8,61,55
+98,Nungambakkam (Chennai North),July'2017,39.6,36.5,22.3,28,64,59
+99,Nungambakkam (Chennai North),August'2017,37.1,34.7,23.6,26.4,77,71
+100,Nungambakkam (Chennai North),September'2017,36.2,33.7,24.5,26.8,78,75
+101,Nungambakkam (Chennai North),October'2017,36,32.8,23.4,26.1,85,83
+102,Nungambakkam (Chennai North),November'2017,33.5,29.7,22.7,24.6,89,86
+103,Nungambakkam (Chennai North),December'2017,32.9,30.1,21,23.4,82,77
+104,Nungambakkam (Chennai North),January'2018,31.1,29.7,19,21.5,78,68
+105,Nungambakkam (Chennai North),February'2018,32.8,31,19,22.4,79,67
+106,Nungambakkam (Chennai North),March'2018,35.6,33.1,21,24.6,81,68
+107,Nungambakkam (Chennai North),April'2018,36.6,33.6,25.4,27.3,74,70
+108,Nungambakkam (Chennai North),May'2018,39.1,36.1,26.6,28.4,68,69
+109,Meenambakkam (PBO Chennai),June'2017,41.8,37.9,22.4,27.1,62,56
+110,Meenambakkam (PBO Chennai),July'2017,39.3,36.9,21.2,26.4,68,61
+111,Meenambakkam (PBO Chennai),August'2017,37.2,34.4,22.2,24.9,76,71
+112,Meenambakkam (PBO Chennai),September'2017,36,33.5,23.2,25.4,79,72
+113,Meenambakkam (PBO Chennai),October'2017,35.5,32.7,21.6,24.7,83,79
+114,Meenambakkam (PBO Chennai),November'2017,33.8,29.9,21.5,23.3,87,80
+115,Meenambakkam (PBO Chennai),December'2017,32.7,29.9,18.6,22,79,68
+116,Meenambakkam (PBO Chennai),January'2018,31.8,30,17.6,20.2,82,63
+117,Meenambakkam (PBO Chennai),February'2018,33.8,31.8,17.2,21.1,79,63
+118,Meenambakkam (PBO Chennai),March'2018,37.6,34.2,18.6,23.6,78,66
+119,Meenambakkam (PBO Chennai),April'2018,38.5,36,25.1,27,72,65
+120,Meenambakkam (PBO Chennai),May'2018,40.8,37.6,26.8,28.3,64,63
+121,Salem,June'2017,38,39.7,23.1,27.1,64,31
+122,Salem,July'2017,38.4,37.3,22.7,25.9,68,45
+123,Salem,August'2017,36,36,22.7,25.9,72,45
+124,Salem,September'2017,35.1,36,22.4,25.3,71,44
+125,Salem,October'2017,34.4,33.5,22,24.4,79,57
+126,Salem,November'2017,33.6,33.1,21.1,24.2,79,64
+127,Salem,December'2017,32.6,32.2,19.1,24.1,80,62
+128,Salem,January'2018,31.6,31.3,17,23.2,78,61
+129,Salem,February'2018,36.8,30.6,17.2,20.9,77,53
+130,Salem,March'2018,38.5,31.6,18.5,19.6,71,42
+131,Salem,April'2018,40.6,34,24,20.3,75,47
+132,Salem,May'2018,40.4,36.4,22.5,23.2,75,42
+133,Kovilankulam (Aruppukottai),June'2017,40,37,24.3,26,71,60
+134,Kovilankulam (Aruppukottai),July'2017,39.5,38,21.8,25,71,61
+135,Kovilankulam (Aruppukottai),August'2017,39.5,37,22.8,25,73,63
+136,Kovilankulam (Aruppukottai),September'2017,39,37,21.8,25,74,58
+137,Kovilankulam (Aruppukottai),October'2017,38.5,34.2,22.3,24.1,80,65
+138,Kovilankulam (Aruppukottai),November'2017,34,30.6,20.8,23,88,72
+139,Kovilankulam (Aruppukottai),December'2017,32.5,30.5,17.8,22.1,88,71
+140,Kovilankulam (Aruppukottai),January'2018,33.5,31.8,15.5,20,81,61
+141,Kovilankulam (Aruppukottai),February'2018,37,34.7,17,21.9,81,57
+142,Kovilankulam (Aruppukottai),March'2018,40,37.6,21.5,24,74,58
+143,Kovilankulam (Aruppukottai),April'2018,42.5,39.6,24,25.8,73,60
+144,Kovilankulam (Aruppukottai),May'2018,41,38.1,23,25.5,73,61
+145,AMS Tiruchirappalli,June'2017,40.5,38.8,25.8,27.6,59,43
+146,AMS Tiruchirappalli,July'2017,40.7,38.5,24,27.8,57,36
+147,AMS Tiruchirappalli,August'2017,38.8,35.9,22.2,26,72,52
+148,AMS Tiruchirappalli,September'2017,37.9,34.3,23,25.1,76,62
+149,AMS Tiruchirappalli,October'2017,37.1,34.6,23.4,25.3,77,61
+150,AMS Tiruchirappalli,November'2017,35,31.3,22.4,23.9,82,71
+151,AMS Tiruchirappalli,December'2017,32.2,30.1,20.4,22.2,82,63
+152,AMS Tiruchirappalli,January'2018,33.1,30.7,18.2,20.4,79,51
+153,AMS Tiruchirappalli,February'2018,35.1,32.8,16.8,21.3,74,43
+154,AMS Tiruchirappalli,March'2018,40.1,35.8,20,23.8,75,39
+155,AMS Tiruchirappalli,April'2018,41,38.4,25.4,26.9,68,41
+156,AMS Tiruchirappalli,May'2018,41.3,37.8,22.8,26.3,67,55
+157,Kodaikanal,June'2017,21.4,18.7,11.7,12.9,83,94
+158,Kodaikanal,July'2017,21,18.3,10.9,12.3,84,88
+159,Kodaikanal,August'2017,22,17.5,10.8,12.2,88,94
+160,Kodaikanal,September'2017,21,18.1,9.8,12.1,88,92
+161,Kodaikanal,October'2017,20.8,18.4,8.5,11.9,85,94
+162,Kodaikanal,November'2017,19.1,16,8.5,10.8,91,96
+163,Kodaikanal,December'2017,21.2,17.4,6,9.2,64,87
+164,Kodaikanal,January'2018,21.6,17.8,5.3,8.3,63,80
+165,Kodaikanal,February'2018,22.1,19.1,8.1,9.7,52,76
+166,Kodaikanal,March'2018,22.3,19.1,9,11.2,61,75
+167,Kodaikanal,April'2018,21.9,20.3,10.1,11.9,64,85
+168,Kodaikanal,May'2018,22.5,19.7,11.5,12.7,83,91
+169,AMS-Madurai,June'2017,40.4,38.1,23.1,26.4,59,50
+170,AMS-Madurai,July'2017,42,39.3,23.4,26.7,55,44
+171,AMS-Madurai,August'2017,39,35.6,21.2,25.1,71,56
+172,AMS-Madurai,September'2017,36.8,34.5,22.8,24.4,74,67
+173,AMS-Madurai,October'2017,37.8,35.2,22.5,24.5,73,62
+174,AMS-Madurai,November'2017,35.4,32.5,22.2,23.4,76,65
+175,AMS-Madurai,December'2017,33,31.1,18.6,21.9,76,60
+176,AMS-Madurai,January'2018,34.1,32.2,18.2,20.6,73,49
+177,AMS-Madurai,February'2018,36.3,34.4,17.7,21.5,68,41
+178,AMS-Madurai,March'2018,40,36.7,20.6,23.9,66,39
+179,AMS-Madurai,April'2018,39.6,37.9,23.1,26.2,66,44
+180,AMS-Madurai,May'2018,40.6,36.5,22.5,25.7,68,55
+181,Kanniyakumari,June'2017,33.4,30.5,22.6,24.3,83,84
+182,Kanniyakumari,July'2017,34.4,31.5,22.8,24.4,82,78
+183,Kanniyakumari,August'2017,34.6,32.4,23,24.6,76,77
+184,Kanniyakumari,September'2017,33.8,31.1,22.5,24.1,77,83
+185,Kanniyakumari,October'2017,33.1,31.4,23.2,24.5,73,79
+186,Kanniyakumari,November'2017,33.4,31.1,22.1,24.1,79,79
+187,Kanniyakumari,December'2017,33.9,32.1,22.6,24.1,79,78
+188,Kanniyakumari,January'2018,33.7,32,22,23.6,71,63
+189,Kanniyakumari,February'2018,33.9,32.5,22,23.4,67,62
+190,Kanniyakumari,March'2018,34.6,33,22.7,25.2,71,73
+191,Kanniyakumari,April'2018,36.1,34,25,26.4,70,79
+192,Kanniyakumari,May'2018,34.6,33,22.9,26.1,75,77
