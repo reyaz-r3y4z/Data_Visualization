@@ -1,0 +1,98 @@
+---
+title: "Data viz A3"
+output: html_document
+date: "2025-06-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(shiny)
+library(tidyverse)
+library(readr)
+library(janitor)
+library(lubridate)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+temperature <- read_csv("temperature_at_select_stations_in_tamil_nadu_2020.csv") %>%
+  clean_names() %>%
+  rename(
+    station = name_of_the_station,
+    month = month,
+    highest_max_temp = highest_maximum_temperature_in_celsius,
+    mean_max_temp = mean_maximum_temperature_in_celsius,
+    lowest_min_temp = lowest_minimum_temperature_in_celsius,
+    mean_min_temp = mean_minimum_temperature_in_celsius,
+    humidity_morning = percentage_of_humidity_at_08_30_hours,
+    humidity_evening = percentage_of_humidity_at_17_30_hours
+  ) %>%
+  mutate(
+    humidity_morning = as.numeric(humidity_morning),
+    humidity_evening = as.numeric(humidity_evening)
+  )
+
+temperature <- temperature %>%
+  mutate(month_parsed = parse_date_time(month, orders = "b'Y", locale = "en"))
+
+
+# 2️⃣ Read time-series rainfall by seasons
+rainfall_seasonal <- read_csv("time_series_data_rainfall_by_seasons_in_tamil_nadu_2020.csv") %>%
+  clean_names() %>%
+  rename(
+    year = year,
+    swm_normal = normal_rainfall_in_south_west_monsoon_in_mm,
+    swm_actual = actual_rainfall_in_south_west_monsoon_in_mm,
+    nem_normal = normal_rainfall_in_north_east_monsoon_in_mm,
+    nem_actual = actual_rainfall_in_north_east_monsoon_in_mm,
+    winter_normal = normal_rainfall_in_winter_season_in_mm,
+    winter_actual = actual_rainfall_in_winter_season_in_mm,
+    hot_weather_normal = normal_rainfall_in_hot_weather_season_in_mm,
+    hot_weather_actual = actual_rainfall_in_hot_weather_season_in_mm,
+    total_normal = total_normal_rainfall_in_mm,
+    total_actual = total_actual_rainfall_in_mm,
+    deviation_percentage = percentage_deviation_from_normal
+  )
+
+# 3️⃣ Read district distribution by rainfall ranges
+rainfall_distribution <- read_csv("distribution_of_districts_by_range_of_rainfall_2020.csv") %>%
+  clean_names() %>%
+  rename(
+    range = range_of_rainfall,
+    actual_districts = actual_rainfall_occurred,
+    normal_districts = normal_rainfall_expected
+  )
+
+# 4️⃣ Read rainfall by districts 2020
+rainfall_districts <- read_csv("rainfall_by_districts_2020.csv") %>%
+  clean_names() %>%
+  rename(
+    district = district,
+    swm_actual = actual_rainfall_in_south_west_monsoon_june_2018_to_september_2018_in_mm,
+    swm_normal = normal_rainfall_in_south_west_monsoon_june_2018_to_september_2018_in_mm,
+    nem_actual = actual_rainfall_in_north_east_monsoon_october_2018_to_december_2018_in_mm,
+    nem_normal = normal_rainfall_in_north_east_monsoon_october_2018_to_december_2018_in_mm,
+    winter_actual = actual_rainfall_in_winter_season_january_2019_to_february_2019_in_mm,
+    winter_normal = normal_rainfall_in_winter_season_january_2019_to_february_2019_in_mm,
+    hot_weather_actual = actual_rainfall_in_hot_weather_season_march_2019_to_may_2019_in_mm,
+    hot_weather_normal = normal_rainfall_in_hot_weather_season_march_2019_to_may_2019_in_mm,
+    total_actual = total_actual_rainfall_june_2018_to_may_2019_in_mm,
+    total_normal = total_normal_rainfall_june_2018_to_may_2019_in_mm
+  )
+
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
