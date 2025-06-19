@@ -19,7 +19,7 @@ my_theme <- bs_theme(
 )
 
 # Load and preprocess data
-temperature <- read_csv("data/temperature_at_select_stations_in_tamil_nadu_2020.csv") %>%
+temperature <- read_csv("temperature_at_select_stations_in_tamil_nadu_2020.csv") %>%
   clean_names() %>%
   rename(
     station = name_of_the_station,
@@ -44,7 +44,7 @@ temperature_long <- temperature %>%
 humidity_long <- temperature %>%
   pivot_longer(cols = c(humidity_morning, humidity_evening), names_to = "humidity_type", values_to = "humidity_pct")
 
-ts_rainfall <- read_csv("data/time_series_data_rainfall_by_seasons_in_tamil_nadu_2020.csv") %>%
+ts_rainfall <- read_csv("time_series_data_rainfall_by_seasons_in_tamil_nadu_2020.csv") %>%
   clean_names() %>%
   mutate(year = as.numeric(str_sub(year, 1, 4)))
 
@@ -53,7 +53,7 @@ ts_rainfall_long <- ts_rainfall %>%
   separate(category, into = c("type", "season"), sep = "_rainfall_in_", extra = "merge") %>%
   mutate(season = str_replace_all(season, "_", " "), type = str_to_title(type))
 
-rainfall_districts <- read_csv("data/rainfall_by_districts_2020.csv") %>%
+rainfall_districts <- read_csv("rainfall_by_districts_2020.csv") %>%
   clean_names() %>%
   mutate(percentage_deviation = round(100 * (total_actual_rainfall_june_2018_to_may_2019_in_mm - total_normal_rainfall_june_2018_to_may_2019_in_mm) / total_normal_rainfall_june_2018_to_may_2019_in_mm, 1))
 
@@ -78,7 +78,7 @@ rainfall_districts_long <- rainfall_districts %>%
   ) %>%
   mutate(season_short = factor(season_short, levels = c("SW Monsoon", "NE Monsoon", "Winter", "Hot Weather", "Total Actual", "Total Normal")))
 
-rainfall_range <- read_csv("data/distribution_of_districts_by_range_of_rainfall_2020.csv") %>%
+rainfall_range <- read_csv("distribution_of_districts_by_range_of_rainfall_2020.csv") %>%
   clean_names()
 
 actual_range <- rainfall_range %>%
